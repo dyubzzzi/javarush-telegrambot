@@ -46,6 +46,4 @@ public class CommandContainerTest {
         Assertions.assertEquals(UnknownCommand.class, command.getClass());
     }
 
-    private static class CommandName {
-    }
 }
